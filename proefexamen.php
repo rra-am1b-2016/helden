@@ -12,7 +12,7 @@
    <!-- Latest compiled JavaScript -->
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <link rel="stylesheet" href="css/style.css">
-   <script src="./js/carousel.js"></script>
+   <script src="./js/carousel-data.js"></script>
 </head>
 <body>
    <div class="container">
@@ -35,27 +35,27 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
 
-      <div class="item active">
+      <div class="item active" id="picture-0">
         <img src="./images/messner.jpg" alt="Reinhold Messner" style="width:100%;">
         <div class="carousel-caption">
-          <h3>Reinhold Messner</h3>
-          <p>Bergbeklimmer</p>
+          <h3></h3>
+          <p></p>
         </div>
       </div>
 
-      <div class="item">
+      <div class="item" id="picture-1">
         <img src="./images/johan.jpg" alt="Johan Cruijff" style="width:100%;">
         <div class="carousel-caption">
-          <h3>Johan Cruijff</h3>
-          <p>Voetballer</p>
+          <h3></h3>
+          <p></p>
         </div>
       </div>
     
-      <div class="item">
+      <div class="item" id="picture-2">
         <img src="./images/ali.jpg" alt="Mohammed Ali" style="width:100%;">
         <div class="carousel-caption">
-          <h3>Mohammed Ali</h3>
-          <p>Bokser</p>
+          <h3></h3>
+          <p></p>
         </div>
       </div>
   
