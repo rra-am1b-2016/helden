@@ -1,0 +1,11 @@
+body {
+  background-color: #e6e6e6;
+}
+.row {
+  border: 1px solid #cdcdcd;
+}
+.col-xs-4,
+.col-xs-6,
+.col-xs-12 {
+  border: 1px solid #cdcdcd;
+}
