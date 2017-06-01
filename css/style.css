@@ -9,3 +9,29 @@ body {
 .col-xs-12 {
   border: 1px solid #cdcdcd;
 }
+#home,
+#about,
+#contact,
+#action,
+#another_action {
+  min-height: 900px;
+}
+#home {
+  background-color: #f3fdf3;
+}
+#about {
+  background-color: #97f39f;
+}
+#contact {
+  background-color: #dcfbde;
+}
+#action {
+  background-color: #aef5b4;
+}
+#another_action {
+  background-color: #3ce84a;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+}

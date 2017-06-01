@@ -9,3 +9,35 @@ body {
 .col-xs-4, .col-xs-6, .col-xs-12 {
    border: 1px solid darken(rgb(230, 230, 230), 10%);   
 }
+
+#home, #about, #contact, #action, #another_action {
+   min-height: 900px;
+}
+
+@bg-base-color: #c5f8c9;
+
+
+#home {
+   background-color: lighten(@bg-base-color, 10%);
+}
+
+#about {
+   background-color: darken(@bg-base-color, 10%);
+}
+
+#contact {
+   background-color: lighten(@bg-base-color, 5%);
+}
+
+#action {
+   background-color: darken(@bg-base-color, 5%);
+}
+
+#another_action {
+   background-color: darken(@bg-base-color, 30%);
+}
+
+.footer {
+   position: fixed;
+   bottom: 0;
+}
